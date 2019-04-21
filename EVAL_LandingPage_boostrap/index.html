@@ -48,7 +48,7 @@
     <main class="row justify-content-center my-0 mx-0">
         <section id="sect1" class="container-fluid py-3 row justify-content-around my-0 mx-0">
             <!--SECTION 1-->
-            <article class="col-md-5 col-sm-12" id="article1">
+            <article class="col-md-5" id="article1">
                 <hr>
                 <H2>Death to the Stock Photo:<br />
                     Special Thanks
@@ -58,13 +58,19 @@
                     website to become a member
                 </P>
             </article>
-                <img class="col-md-4 col-sm-8" src="img/ipad.png" alt="Une photo d'ipad">
+            <div class="col-md-4" >
+                <img src="img/ipad.png" alt="Une photo d'ipad" style="width: 100%">
+            </div>
+                
         </section>
 
         <section id="sect2" class="py-3 row justify-content-around my-0 mx-0">
             <!--SECTION 2-->
-            <img class="col-md-4 col-sm-8" src="img/dog.png" alt="Une photo de chien">
-            <article class="col-md-4 col-sm-12" id="article2">
+            <div class="col-md-4">
+                <img src="img/dog.png" alt="Une photo de chien" style="width: 100%">
+
+            </div>
+            <article class="col-md-4 order-first order-md-last" id="article2">
                 <hr>
                 <H2>3D Device Mockups by PSDCovers</H2>
                 <P>Turn 2D designs into high quality, 3D product shots in seconds
@@ -76,14 +82,16 @@
 
         <section id="sect3" class="container-fluid py-3 row justify-content-around my-0 mx-0">
             <!--SECTION 3-->
-            <article class="col-md-4 col-sm-12" id="article3">
+            <article class="col-md-4" id="article3">
                 <hr>
                 <H2>Google Web Fonts and Fonts Awesome Icons</H2>
                 <P>This template features the 'lato' font, part of the Google Web Font library, as well as icons from
                     Font Awesome.
                 </P>
             </article>
-            <img class="col-md-4 col-sm-12" src="img/phones.png" alt="une photo de téléphone">
+            <div class="col-md-4">
+                <img src="img/phones.png" alt="une photo de téléphone" style="width: 100%">
+            </div>
         </section>
     </main>
 
@@ -123,11 +131,11 @@
 
     <div class="mt-5 text-white row container-fluid row ml-0 justify-content-around align-content-center" style="height:200px;" id="bottom_banner">
         <!--BOTTOM BANNER-->
-        <span class="font-weight-bold h3 pt-2 col-md-5 com-sm-12">Connect to Start Bootstrap:</span>
-        <div>
-            <button class="btn btn-light"><i class="fab fa-twitter"></i>TWITTER</button>
-            <button class="btn btn-light mx-3"><i class="fab fa-github"></i>GITHUB</button>
-            <button class="btn btn-light"><i class="fab fa-linkedin-in"></i>LINKEDIN</button>
+        <span class="row font-weight-bold h3 pt-2 col-md-5">Connect to Start Bootstrap:</span>
+        <div class="row justify-content-center">
+            <button class="btn btn-light mb-3"><i class="fab fa-twitter"></i>TWITTER</button>
+            <button class="btn btn-light mx-3 mb-3"><i class="fab fa-github"></i>GITHUB</button>
+            <button class="btn btn-light mb-3"><i class="fab fa-linkedin-in"></i>LINKEDIN</button>
         </div>
     </div>
 
