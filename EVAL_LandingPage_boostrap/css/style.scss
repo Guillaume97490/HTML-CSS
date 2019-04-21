@@ -13,6 +13,9 @@ nav.row{
     background-size: cover;
     
 }
+.socialBtnMobile{
+    display: none;
+}
 
 #sect1,#sect3{
     background: rgb(235, 235, 235);
@@ -24,6 +27,12 @@ nav.row{
 @media screen and (max-width: 767px){
     img.col-md-4:nth-child(1){
         order: +1;
+    }
+    .socialBtnPC{
+        display: none;
+    }
+    .socialBtnMobile{
+        display: block;
     }
     
 
